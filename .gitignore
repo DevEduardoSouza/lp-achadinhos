@@ -1,0 +1,26 @@
+# MCP config — contém chaves de API sensíveis
+.mcp.json
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Build / deploy locais
+.netlify/
+.vercel/
+node_modules/
+
+# Outputs locais (não vão pra produção)
+nanobanana-output/
+*.mp3
+*.wav
